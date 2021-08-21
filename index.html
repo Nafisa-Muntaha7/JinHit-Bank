@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JinHit EnterPrise</title>
+    <!----------- Tailwind CSS ------------>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!--------- CSS Stylesheet ------------>
+    <link rel="stylesheet" href="style.css">
+    <!------------ Google Fonts -------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-10 text-blue-800">Welcome to <span class="font-semibold text-blue-700">JinHit
+                EnterPrise</span>
+        </h1>
+    </header>
+    <main>
+        <section class="bg-blue-200 w-3/4 mx-auto mt-14 text-center p-8 rounded">
+            <h3 class="text-3xl mb-5">Please Log in</h3>
+            <div>
+                <input id="user-email" class="border-2 px-5 border-blue-700 rounded mx-5" type="text"
+                    placeholder="Your Email">
+                <input id="user-password" class="border-2 px-5 mt-2 border-blue-700 block mt-5 mx-auto rounded"
+                    type="password" placeholder="Password">
+                <br>
+                <button id="login-button" class="bg-indigo-500 text-white py-2 px-3 rounded">Submit</button>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

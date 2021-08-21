@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigHit EnterPrise-[JinHit]</title>
+    <!---------- Tailwind CSS ------------>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!--------- CSS Stylesheet ------------>
+    <link rel="stylesheet" href="style.css">
+    <!------------ Google Fonts -------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-10 text-purple-800 mt-10">Grab some <span class="text-green-600">Money</span>
+            from<span class="font-semibold text-green-700"> BitHit
+                EnterPrise</span>
+        </h1>
+    </header>
+    <main class=" w-3/4 mx-auto">
+        <!-- Balance and Transaction -->
+        <section class="my-10">
+            <div class="grid grid-cols-3 gap-4 ">
+                <div class="bg-green-200 rounded m-2 p-10">
+                    <h4 class="text-3xl"><u>Deposit</u></h4>
+                    <h3 class="text-4xl mt-2">$<span id="deposit-total">0</span></h3>
+                </div>
+                <div class="bg-purple-200 rounded m-2 p-10">
+                    <h4 class="text-3xl"><u>Withdraw</u></h4>
+                    <h3 class="text-4xl mt-2">$<span id="withdraw-total">0</span></h3>
+                </div>
+                <div class="bg-green-200 rounded m-2 p-10">
+                    <h4 class="text-3xl"><u>Total Balance</u></h4>
+                    <h3 class="text-4xl mt-2">$ <span id="balance-total"> 1200</span></h3>
+                </div>
+            </div>
+        </section>
+        <!-- Deposit and Withdraw -->
+        <section class="mb-16">
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-green-100 rounded p-5">
+                    <h3 class="text-4xl">Deposit</h3>
+                    <div>
+                        <input id="deposit-input" class="border-2 px-2 w-3/4 border-green-700 block rounded my-5"
+                            type="text" placeholder="$ amount you want to deposit">
+                        <button id="deposit-button"
+                            class="bg-green-500 text-white py-2 mb-5 px-3 rounded">Deposit</button>
+                    </div>
+                </div>
+                <div class="bg-purple-100 rounded p-5">
+                    <h3 class="text-4xl">Withdraw</h3>
+                    <div>
+                        <input id="withdraw-input" class="border-2 px-2 w-3/4 border-purple-700 block rounded my-5"
+                            type="text" placeholder="$ amount you want to withdraw">
+                        <button id="withdraw-button"
+                            class="bg-purple-500 text-white py-2 mb-5 px-3 rounded">Withdraw</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- <img class="mx-auto img-fuild" src="85eaC3.jpg" alt=""> -->
+    </footer>
+    <script src="js/function-script.js"></script>
+</body>
+
+</html>
